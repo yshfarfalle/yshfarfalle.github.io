@@ -1,0 +1,22 @@
+
+.btn2 {
+    color: #ffffff;
+    font-size: 1rem;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+    text-decoration: none;
+    background: rgb(241, 241, 241);
+
+    /* background: #99fdde; */
+    box-shadow: 0 15px #565656;
+    position: relative; /*꼭 사용*/
+    display: inline-block;
+    top: -8px;
+    padding: 30px 200px;
+}
+.btn2:hover {
+    background: rgb(198, 198, 198);
+
+    box-shadow: 0 5px #585858;
+    top:1px;
+}
