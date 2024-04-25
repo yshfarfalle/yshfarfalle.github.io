@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>character</title>
+        <meta charset="utf-8">
+        <link href="piano_b.css" rel=" stylesheet">
+        <link href="piano_w.css" rel=" stylesheet">
+
+
+        <style>
+            body{color: rgb(158, 80, 85);
+                /* background-color: brown; */
+                background-image: url(character.jpeg);
+                background-size: cover;
+            margin: 0px;}
+            
+            header{
+            position: fixed;
+            display: flex;
+            justify-content: space-between;
+            width: 99vw;
+            height: flex;
+            padding: 15px;
+            background-color: rgb(43, 2, 31);  
+            color: rgba(255, 255, 255, 0.5);     
+            
+            z-index: 1;
+
+            }
+
+
+            header h1{
+                margin: 0px;
+                padding: 30px;
+            }
+
+
+        </style>
+    <style>
+        #i1{
+            position: fixed; 
+            top:0px;
+            right:0px;
+
+            margin-top: 130px;
+            text-align: right;
+            padding: 0px 0px;
+        }
+        #i2{
+            position: fixed; 
+            top:0px;
+            right:0px;
+
+            margin-top: 195px;
+            text-align: right;
+            padding: 0px 0px;
+        }
+            #i3{
+            position: fixed; 
+            top:0px;
+            right:0px;
+
+            margin-top: 260px;
+            text-align: right;
+            padding: 0px 0px;
+        }
+        #i4{
+            position: fixed;
+            top:0px;
+            right:0px;
+
+            margin-top: 325px;
+            text-align: right;
+            padding: 0px 0px;
+        }
+        #i5{
+            position: fixed; 
+            top:0px;
+            right:0px;
+
+            margin-top: 390px;
+            text-align: right;
+            padding: 0px 0px;
+        } 
+        #i6{
+            position: fixed; 
+            top:0px;
+            right:0px;
+
+            margin-top: 455px;
+            text-align: right;
+            padding: 0px 0px;
+        } 
+        #i7{
+            position: fixed; 
+            top:0px;
+            right:0px;
+
+            margin-top: 520px;
+            text-align: right;
+            padding: 0px 0px;
+        } 
+        #i8{
+            position: fixed; 
+            top:0px;
+            right:0px;
+
+            margin-top: 585px;
+            text-align: right;
+            padding: 0px 0px;
+        } 
+        #i9{
+            position: fixed; 
+            top:0px;
+            right:0px;
+
+            margin-top: 650px;
+            text-align: right;
+            padding: 0px 0px;
+        } 
+        #i10{
+            position: fixed; 
+            top:0px;
+            right:0px;
+
+            margin-top: 715px;
+            text-align: right;
+            padding: 0px 0px;
+        } 
+    </style>
+    <style>
+        #d1{
+            position: fixed; 
+            top:0px;
+            right:0px;
+
+            margin-top: 160px;
+            text-align: right;
+            padding: 0px 0px;
+        }
+        #d2{
+            position: fixed; 
+            top:0px;
+            right:0px;
+
+            margin-top: 227px;
+            text-align: right;
+            padding: 0px 0px;
+        }
+        #d3{
+            position: fixed; 
+            top:0px;
+            right:0px;
+
+            margin-top: 354px;
+            text-align: right;
+            padding: 0px 0px;
+        }
+        #d4{
+            position: fixed; 
+            top:0px;
+            right:0px;
+
+            margin-top: 421px;
+            text-align: right;
+            padding: 0px 0px;
+        }
+        #d5{
+            position: fixed; 
+            top:0px;
+            right:0px;
+
+            margin-top: 488px;
+            text-align: right;
+            padding: 0px 0px;
+        }
+        #d6{
+            position: fixed; 
+            top:0px;
+            right:0px;
+
+            margin-top: 615px;
+            text-align: right;
+            padding: 0px 0px;
+        }
+        #d7{
+            position: fixed; 
+            top:0px;
+            right:0px;
+
+            margin-top: 682px;
+            text-align: right;
+            padding: 0px 0px;
+        }
+
+        h4{
+                color: rgb(100, 60, 60);
+                margin-right: 50px;
+                text-decoration: underline;
+            }
+            
+        #p1{
+            position: absolute;
+            font-size: 17px;
+            text-align: center;
+            /* border: double 10px rgba(217, 94, 127, 0.486); */
+            background-color: rgba(12, 1, 39, 0.74);            
+            text-shadow: 20px 20px 20px #0e0133;
+            padding: 30px 60px;
+            top: 55%; /* 화면 상단에서 절반 정도 아래로 위치 */
+            left: 40%; /* 화면 왼쪽에서 절반 정도 오른쪽으로 위치 */
+            transform: translate(-50%, -50%);
+        }
+        #p1>h1{
+            font-style: italic;
+        }
+        footer{
+                font-size: 8px;
+                text-align: right;
+                background-color: rgb(43, 2, 31);
+                color: rgb(162, 162, 162);
+                position: fixed; 
+                bottom: 0; 
+                width: 100%; 
+            }
+            .red_box {
+                display:inline-block;
+                width:200px;
+                height:auto;
+                margin:10px;
+                margin-left: 60px;
+                border-radius: 30px;
+                font-size: 50px;
+                font-style:oblique;
+            }
+            .green_box {
+                display:inline-block;
+                width:200px;
+                height:auto;
+                margin:10px;
+                margin-left: 60px;
+                border:solid 3px #4a0101;
+                border-radius: 30px;
+                font-size: 15px;
+            }
+
+            .green_box>img {
+                border-radius: 30px;
+
+            }
+
+            .purple_box {
+                display:inline-block;
+                width:200px;
+                height:auto;
+                margin:10px;
+                margin-left: 60px;
+                border-radius: 30px;
+                font-size: 15px;
+            }
+            #logo>a>img{
+            border-radius: 15px;
+        }
+
+        #w2{
+            color:rgb(143, 143, 143);
+            position: fixed; 
+            top:0px;
+            right: 10px;
+
+            margin-top: 215px;
+            text-align: right;
+            padding: 0px 0px;
+        }
+        #w3{
+            color:rgb(143, 143, 143);
+            position: fixed; 
+            top:0px;
+            right: 10px;
+
+            margin-top: 340px;
+            text-align: right;
+            padding: 0px 0px;
+        }
+
+        #w4{
+            color:rgb(143, 143, 143);
+            position: fixed; 
+            top:0px;
+            right: 10px;
+
+            margin-top: 410px;
+            text-align: right;
+            padding: 0px 0px;
+        }
+
+        #w5{
+            color:rgb(143, 143, 143);
+            position: fixed; 
+            top:0px;
+            right: 10px;
+
+            margin-top: 480px;
+            text-align: right;
+            padding: 0px 0px;
+        }
+
+        #w6{
+            color:rgb(143, 143, 143);
+            position: fixed; 
+            top:0px;
+            right: 10px;
+
+            margin-top: 600px;
+            text-align: right;
+            padding: 0px 0px;
+        }
+
+    </style>
+    </head>
+    <body>
+        <div id="p1">
+            <div class="red_box">" J "</div>
+            <div class="red_box">" S "</div>
+            <div class="red_box">" K "</div></br>
+            <div class="green_box"><img width="200px" height="auto" src="j.jpg"/></div>
+            <div class="green_box"><img width="200px" height="auto" src="s.jpg"/></div>
+            <div class="green_box"><img width="200px" height="auto" src="k.jpg"/></div></br>
+            <div class="purple_box">우연한 사고 이후</br>죽음에 다가설 수록</br> 세상에 없는 아름다운 곡을</br> 완성시켜 나가는 작곡가</br></br></div>
+            <div class="purple_box">J의 음악적 뮤즈이자</br>오랜 친구로</br>천재적 재능을 타고난 작곡가</br></br></br></div>
+            <div class="purple_box">자신의 성공을 위해</br>J를 파멸로 이끄는</br>클래식 계 저명한 교수</br></br></br></div>
+
+            </div>
+
+            
+    <header>
+        <div id="logo">
+            <a href="index.html">
+                <img width="auto" height="100" src="logolast.png"/>
+            </a></div>
+            <h4>Even it it means sacrificing your life, complete this sonata</h4>
+    </header>
+
+
+        <!-- 흰 건반 -->
+        <span id="i1"><a class="btn2" href=""></a></span>
+        <span id="i2"><a class="btn2" href="https://www.instagram.com/zy_chul/"></a></span>
+        <span id="i3"><a class="btn2" href=""></a></span>
+        <span id="i4"><a class="btn2" href=""></a></span>
+        <span id="i5"><a class="btn2" href=""></a></span>
+        <span id="i6"><a class="btn2" href="https://www.instagram.com/jiwon__yang"></a></span>
+        <span id="i7"><a class="btn2" href=""></a></span>
+        <span id="i8"><a class="btn2" href="https://www.instagram.com/k.kyoungsu"></a></span>
+        <span id="i9"><a class="btn2" href="https://www.instagram.com/uuutaeyul?igshid=YmMyMTA2M2Y%3D"></a></span>
+        <span id="i10"><a class="btn2" href=""></a></span>
+
+        <div id="i0"> </div>
+
+        <!-- 검은건반 -->
+        <span id="d1"><a class="btn" href="index.html"></a></span>
+        <span id="d2"><a class="btn" href="preview.html"></a></span>
+        <span id="w2"><h3>PREVIEW</h3></span>
+        <span id="d3"><a class="btn" href="character.html"></a></span>
+        <span id="w3"><h3>CHARACTER</h3></span>
+
+        <span id="d4"><a class="btn" href="synopsis.html"></a></span>
+        <span id="w4"><h3>SYNOPSIS</h3></span>
+
+        <span id="d5"><a class="btn" href="actor.html"></a></span>
+        <span id="w5"><h3>ACTOR</h3></span>
+
+        <span id="d6"><a class="btn" href="record.html"></a></span>
+        <span id="w6"><h3>RECORD</h3></span>
+
+        <span id="d7"><a class="btn" href="index.html"></a></span>
+</div>
+
+<footer>
+        <p>Web Designed by Han Seoyeon</p>
+        <p>Photo Copyright © Nangman Barricade</p>
+    </footer>
+    </body>
+</html>
